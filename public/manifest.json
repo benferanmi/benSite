@@ -1,0 +1,28 @@
+{
+  "short_name": " FOW Movies",
+  "name": "Benjamin feranmi Movies search webite",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logo.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffff00",
+  "Organisation": "Fow Org",
+  "version": 1.0,
+  "Discription": "A website created for the users to help them to search movies all over the internet."
+}
