@@ -1,6 +1,6 @@
 {
-  "name": "movies",
-  "version": "0.1.0",
+  "name": "Ben feranmi opafunso portfolio",
+  "version": "0.1.1",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.7.0",
@@ -11,15 +11,18 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "animate.css": "^4.1.1",
+    "framer-motion": "^10.12.10",
     "gsap-trial": "^3.11.1",
     "loaders.css": "^0.1.2",
     "react": "^18.2.0",
+    "react-awesome-slider": "^4.1.0",
     "react-content-loader": "^6.2.0",
     "react-dom": "^18.2.0",
     "react-leaflet": "^4.0.2",
     "react-loaders": "^3.0.1",
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
+    "react-transition-group": "^4.4.5",
     "sass": "^1.54.9",
     "web-vitals": "^2.1.4"
   },

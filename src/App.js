@@ -5,7 +5,8 @@ import Layout from './component/Layout/index.js';
 import About from './component/About/index.js';
 import AllAnimationJs from './cssAnimations/AllCss';
 import Contact from './component/Contact/Contact';
-import { ContactUs } from './component/Contact/contactcopy';
+import Portfolio from './component/Portfolio';
+// import { ContactUs } from './component/Contact/contactcopy';
 
 function App() {
   return (
@@ -16,8 +17,7 @@ function App() {
       <Route path='about' element={<About />} />
       <Route path='animation' element={<AllAnimationJs />} />
       <Route path='contact' element={<Contact />} />
-      <Route path='contact1' element={<ContactUs />} />
-
+      <Route path='portfolio' element={<Portfolio />} />
     </Routes>
     </> 
   ) 

@@ -4,21 +4,13 @@ import AnimatedLetters from '../AnimatedLetters';
 import { useState } from 'react';
 import { faAngular, faCss3, faGit, faHtml5, faJava, faReact } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// import { Loaders } from 'loaders.css'
+
 
 const About = () => {
     const {letterClass} = useState('text-animate')
-
-    // useEffect (() => {
-    //     return setTimeout(() => {
-    //         setLetterClass('text-animate-hover')
-    //     }, 4000)
-    // }, [])
-
-
     return(
 
-        <div className='about'>
+        <div className='about fade'>
             <Sidebar/>
 
             <div className='about__details'>
@@ -32,17 +24,13 @@ const About = () => {
                   </h1>
 
                     <p>
-                        I'm very ambitious front end website developer looking for a role
-                        in established It company with the opportunity to work with the 
-                        latest technology on diverse and challenging projects.
+                    Multitalented Front end developer with experience in web software industry. Demonstrated excellent skills in HTML, JavaScript and React. True team player with strengths in adaptability and accuracy. Innovative and technically-astute website designer well-versed in analyzing user needs and developing software to precisely meet diverse needs. 
                     </p>
                     <p>
-                        I'm quietly confident, naturaly curious, and perpectually wrking on 
-                        improving my chops one design problem at a time
+                    Demonstrates mastery of multiple programming languages and proactively keeps up with industry trends. Driven to wear many programming hats with expertise in creating everything from new applications to new operating systems. Eager to contribute to team success through hard work, attention to detail and excellent organizational skills. 
                     </p>
                     <p>
-                        If i need to define my self in one sentence that will be a family person,
-                        a bachelor, a sport fantasty, a gamer an enthusiast, and a tech-obsessed!!!
+                    Clear understanding of Task and training in Skill. Motivated to learn, grow and excel in Industry.
                     </p>
                 </div>
             </div>
@@ -50,7 +38,7 @@ const About = () => {
             <div className='stage__cube__cont'>
                 <div className='cubespinner'>
                     <div className='face1'>
-                        <FontAwesomeIcon icon={faAngular} color="#dd0031"/>
+                        <FontAwesomeIcon icon={faAngular} color="red"/>
                     </div>
                     <div className='face2'>
                         <FontAwesomeIcon icon={faHtml5} color="blue"/>
@@ -62,15 +50,13 @@ const About = () => {
                         <FontAwesomeIcon icon={faReact} color="deep-blue"/>
                     </div>
                     <div className='face5'>
-                        <FontAwesomeIcon icon={faGit} color="fff000"/>
+                        <FontAwesomeIcon icon={faReact} color="purple"/>
                     </div>
                     <div className='face6'>
                         <FontAwesomeIcon icon={faJava} color="gold"/>
                     </div>
                 </div>
             </div>
-
-        {/* <Loaders type="pacman" /> */}
         </div>
         
         )

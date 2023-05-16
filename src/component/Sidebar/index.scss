@@ -1,6 +1,6 @@
 .nav-bar {
-    background: #181818;
-    width: 60px;
+    background: #000000;
+    width: 50px;
     height: 100%;
     position: absolute;
     top: 0;
@@ -32,6 +32,14 @@ nav {
     top: 50%;
     margin-top: -150px;
     width: 100%;
+
+    .portfolio__link {
+        svg {
+            color: gray;
+            height: 31px;
+            width: 31px;
+        }
+    }
 
     a{
      font-size: 22px;
@@ -86,6 +94,12 @@ nav {
             font-size: 9px;
         }
     }
+    a.portfolio__link {
+        &::after {
+            content: 'PORTFOLIO';
+            font-size: 9px;
+        }
+    }
 
     a.active {
         svg {
@@ -122,4 +136,6 @@ ul {
         font-size: 12px;
         color: goldenrod;
     }
+
 }
+

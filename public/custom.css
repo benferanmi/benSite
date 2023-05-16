@@ -1183,17 +1183,24 @@
     font-family: sans-serif; 
     text-decoration: none;
     padding: 18px auto;
-    border: 1px solid black;
-    margin-top: 10px;
+    border: 2px solid goldenrod;
+    margin-top: 20px;
     float: left;
     animation: fadeIn 1s 1.8s backwards;
     white-space: nowrap;
+    height: 60px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
 
    }
 
    .flat__button:hover {
     color: black;
     background-color: #f9b707;
+    border: 3px black solid;
    }
 
 

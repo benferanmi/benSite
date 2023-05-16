@@ -1,0 +1,40 @@
+.parallax-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    perspective: 1000px;
+    position: absolute;
+    left: 118%;
+    top: -170px ;
+  }
+  
+  .parallax-image {
+    height: 650px;
+    width: 550px;
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.2s ease-out;
+  }
+
+  @media screen and (max-width: 520px ) {
+    .parallax-container {
+      height: 47vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      perspective: 500px;
+      position: absolute;
+      left: 30%;
+      top: -24px ;
+    }
+    
+    .parallax-image {
+      height: 250px;
+      width: 200px;
+      background-size: cover;
+      background-position: center;
+      transition: transform 0.2s ease-out;
+    }
+  }
+  

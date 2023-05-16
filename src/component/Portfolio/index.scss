@@ -1,0 +1,256 @@
+.portfolio {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  h1 {
+    color: white;
+  }
+
+  span {
+    width: 500px;
+    height: 100%;
+    border-radius: 10px;
+    background-color: #010e13;
+    padding: 10px;
+    border: 2px solid #625126;
+
+    &:hover {
+      border: 2px solid goldenrod;
+    }
+
+    img {
+      height: 480px;
+      width: 500px;
+      border-radius: 10px;
+    }
+    div {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: white;
+
+      h1 {
+        color: white;
+        font-size: 16px;
+      }
+
+      button {
+        height: 50px;
+        border-radius: 20px;
+        width: 200px;
+        background-color: #625126;
+        border: unset;
+        color: white;
+
+        &:hover {
+          background-color: goldenrod;
+        }
+
+        a {
+          text-decoration: none;
+          color: white;
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}
+
+.buttons {
+  display: flex;
+
+  button {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: inherit;
+    color: white;
+  }
+
+  .nextbut {
+    position: absolute;
+    top: 50%;
+    left: 15.5%;
+  }
+  .prevbut {
+    position: absolute;
+    top: 50%;
+    right: 15%;
+  }
+}
+
+@media screen and (max-width: 910px ) {
+
+  .portfolio {
+    h1 {
+      padding: 0px;
+      margin: 10px;
+    }
+  }
+.buttons {
+
+  button {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: inherit;
+    color: white;
+  }
+
+  .nextbut {
+    position: absolute;
+    top: 50%;
+    left: 10.5%;
+  }
+  .prevbut {
+    position: absolute;
+    top: 50%;
+    right: 10%;
+  }
+}  
+}
+@media screen and (max-width: 800px) {
+  .buttons {
+
+    .nextbut {
+      position: absolute;
+      top: 50%;
+      left: 8.5%;
+    }
+    .prevbut {
+      position: absolute;
+      top: 50%;
+      right: 8%;
+    }
+  }
+}
+@media screen and (max-width: 735px) {
+  .buttons {
+
+    .nextbut {
+      position: absolute;
+      top: 50%;
+      left: 16.5%;
+    }
+    .prevbut {
+      position: absolute;
+      top: 50%;
+      right: 17%;
+    }
+  }
+}
+@media screen and (max-width: 660px) {
+  .buttons {
+
+    .nextbut {
+      position: absolute;
+      top: 50%;
+      left: 12.5%;
+    }
+    .prevbut {
+      position: absolute;
+      top: 50%;
+      right: 12%;
+    }
+  }
+}
+@media screen and (max-width: 638px) {
+  .portfolio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  
+    span {
+      width: 72%;
+      margin: auto;
+      height: 100%;
+
+      img {
+        height: 70%;
+        width: 99%;
+        margin: auto;
+      }
+      div {
+  
+        h1 {
+          font-size: 14px !important;
+        }
+  
+        button {
+          height: 40px;
+          border-radius: 20px;
+          width: 150px;
+          
+          a {
+            text-decoration: none;
+            color: white;
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+  
+  .buttons {
+  
+    button {
+      height: 40px;
+      width: 40px;
+      border-radius: 50%;
+      background-color:white;
+      z-index: 999;
+    }
+  
+    .nextbut {
+      position: absolute;
+      top: 50%;
+      left: 15.5%;
+      color: black;
+    }
+    .prevbut {
+      position: absolute;
+      top: 50%;
+      right: 15%;
+      color: black;
+    }
+  }
+   
+}
+
+@media screen and (max-width: 468px ) {
+  .portfolio {
+
+    span {
+
+      div {
+        
+        button {
+          margin-top: 40px;
+        }
+      }
+    }
+  }
+}
+
+
+@media screen and (max-width: 450px ) {
+  .portfolio {
+
+    span {
+      width: 65%;
+      margin: auto;
+      img {
+        height: 340px
+      }
+      div {
+        
+        button {
+          margin-top: 20px;
+        }
+      }
+    }
+  }
+}
