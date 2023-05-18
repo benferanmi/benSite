@@ -9,7 +9,6 @@ import ParallaxImage from './ParallaxImage'
 
 const Home = () => {
   const [spec, setSpec] = useState('Website Developer')
-  const [windowWidth, setWindowWidth] = useState(window.innerHeight)
   const [letterClass] = useState('text-animate')
   const nameArray = ['e', 'n', 'j', 'a', 'm', 'i', 'n']
   const secArray = [
@@ -27,12 +26,6 @@ const Home = () => {
     'e',
     'r',
   ]
-  useEffect(() => {
-    const handleResize = () => setWindowWidth(window.innerWidth)
-    window.addEventListener('resize', handleResize)
-
-    return () => window.removeEventListener('resize', handleResize)
-  })
 
   useEffect(() => {
     const specArray = ['React Developer', 'Front End Developer', 'Wordpress Wesbite Developer', 'Godaddy website builder Professional', 'Node js (backend)', 'MERN (Full Stack)']
@@ -44,8 +37,6 @@ const Home = () => {
 
     return () => clearInterval(interval);
   } ,[spec])
-
-  console.log(spec)
   //main body starts below
   return (
     <div className="container home__page">
@@ -79,7 +70,6 @@ const Home = () => {
                 initial={{ opacity: 0, scale: 0.5 }}
                 whileHover={{ scale: 1.2 }}
                 className='specs-transistion'
-                // width={windowWidth - '100'}
             >
           {spec}
           </motion.h2>

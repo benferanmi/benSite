@@ -6,6 +6,7 @@ import About from './component/About/index.js';
 import AllAnimationJs from './cssAnimations/AllCss';
 import Contact from './component/Contact/Contact';
 import Portfolio from './component/Portfolio';
+import Portfolio2 from './component/Portfolio/Portfolio';
 // import { ContactUs } from './component/Contact/contactcopy';
 
 function App() {
@@ -18,6 +19,8 @@ function App() {
       <Route path='animation' element={<AllAnimationJs />} />
       <Route path='contact' element={<Contact />} />
       <Route path='portfolio' element={<Portfolio />} />
+      <Route path='portfolio1' element={< Portfolio2/>} />
+
     </Routes>
     </> 
   ) 

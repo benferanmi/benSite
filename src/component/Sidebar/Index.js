@@ -13,11 +13,11 @@ import {
   faStackOverflow,
   faYoutube,
 } from '@fortawesome/free-brands-svg-icons'
-import Arrowfunction from '../Arrowfunction'
+// import Arrowfunction from '../Arrowfunction'
 
 const Sidebar = () => (
   <>
-  <Arrowfunction />
+  {/* <Arrowfunction /> */}
   <div className="nav-bar">
     <Link className="logo" to="/">
       <img src={LogoS} alt="Website logo" />

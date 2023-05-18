@@ -240,10 +240,11 @@
   .portfolio {
 
     span {
-      width: 65%;
+      width: 60%;
       margin: auto;
+
       img {
-        height: 340px
+        height: 390px ;
       }
       div {
         
@@ -251,6 +252,17 @@
           margin-top: 20px;
         }
       }
+    }
+  }
+
+  .buttons {
+
+    .prevbut {
+      right: 20%;
+    }
+
+    .nextbut {
+      left: 20% ;
     }
   }
 }
